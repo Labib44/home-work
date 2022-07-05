@@ -1,0 +1,145 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    height: 800px;
+
+
+
+}
+
+.half-width {
+    width: 40%;
+    height: 60%;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+}
+
+
+
+.half-width p {
+    font-size: 20px;
+}
+
+.half-width h1 {
+    font-size: 30px;
+}
+
+
+span {
+    color: tomato;
+}
+
+.btn {
+    background-color: tomato;
+    text-decoration: none;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.section {
+    height: 800px;
+    display: flex;
+    background-image: url(img/Frame\ 57.jpg);
+    background-size: cover;
+    background-position: left;
+
+}
+
+.div1 {
+    width: 40%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.div1 img {
+    width: 80%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 20%;
+}
+
+.div1 span {
+    color: rgb(133, 32, 41);
+}
+
+.div2 {
+    width: 40%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 200px;
+    padding: 5px;
+}
+
+.my-recipies {
+    display: flex;
+
+}
+
+.recipie-title {
+    height: 40%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2),
+        10px 10px 10px 10px rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+
+.recipie-title img {
+    width: 80%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 70px;
+    border-radius: 20%;
+
+}
+
+.viwer-area {
+    display: flex;
+    height: 100px;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2),
+        10px 10px 10px 10px rgba(0, 0, 0, 0.19);
+    background-color: whitesmoke;
+}
+
+.viwer {
+    height: 23%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
